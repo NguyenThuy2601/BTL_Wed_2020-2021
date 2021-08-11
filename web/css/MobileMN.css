@@ -19,9 +19,17 @@ ul#main-menu a:hover{
 .logo{
     display: none;
 }
+.container{
+    position: relative;
+    padding-top: 50px;
+}
 .normal{
-    display: none;
+    padding: auto;
+    width: 64%;
+    height: 30%;
+    margin: 0% 20% 0% 17%;
 }
-.rep{
-    display: block;
+.normal img{
+    width: 100%;
 }
+

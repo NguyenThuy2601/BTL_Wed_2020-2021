@@ -19,10 +19,18 @@ ul#main-menu a:hover{
 .logo{
     display: none;
 }
-.normal{
-    padding-right: 0%;
-}
 .container{
     padding-right: 0%;
     padding-left: 0%;
+    padding-bottom: 1%;
+    padding-top: 7%;
+}
+.normal{
+    padding: auto;
+    width: 80%;
+    height: 50%;
+    margin: 0% 20% 0% 10%;
+}
+.normal img{
+    width: 100%;
 }

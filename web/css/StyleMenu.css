@@ -21,7 +21,7 @@ footer{
 .container{
     text-align: center;
     font-family: monospace;
-    padding: 130px 50px 50px 10px;
+    padding: 100px 50px 70px 0px;
 }
 .mntittle{
     color:#f7b946;
@@ -52,6 +52,7 @@ a{
     text-align: right;
     padding: 10px;
     cursor: pointer;
+    padding-right: 30px;
 }
 nav{
     display: block;
@@ -105,6 +106,12 @@ header{
     z-index: -9999;
 }
 .rep{
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 85%;
     z-index: -9999;
     display: none;
+}
+.rep img{
+    width: 100%;
 }
