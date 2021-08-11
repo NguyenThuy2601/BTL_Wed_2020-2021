@@ -1,0 +1,28 @@
+header{
+    flex-direction: column;
+    align-items: center;
+}
+ul#main-menu{
+    flex-direction: column;
+    text-align: center;
+}
+#bar{
+    display: block;
+}
+nav{
+    display: none;
+}
+ul#main-menu a:hover{
+    background-color: honeydew;
+    transition: all;
+}
+.logo{
+    display: none;
+}
+.normal{
+    padding-right: 0%;
+}
+.container{
+    padding-right: 0%;
+    padding-left: 0%;
+}

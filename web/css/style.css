@@ -1,0 +1,92 @@
+html{
+    max-height: 60%;
+    margin: 0%;
+}
+body{
+    height: 165%;
+    margin: 0%;
+    background-image: url(../images/bg2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    position:fixed;
+    width: 100%;
+}
+.container{
+    text-align: center;
+    font-family: monospace;
+    padding: 130px 50px 50px 10px;
+}
+.hptittle{
+    color:lightyellow;
+    font: caption;
+    font-weight: bolder;
+    font-size: 3.5vw;
+    text-shadow: 1px 3px 2px black;
+}
+ul{
+    list-style: none;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+.myheader{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: gold;
+}
+#bar{
+    display: none;
+    background-color: gold;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+}
+nav{
+    display: block
+}
+ul#main-menu{
+    display: flex;
+    padding: 10px;
+}
+ul#main-menu a{
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: black;
+    display: block;
+    font-size: 1.75vw;
+} 
+.hpcontainer{
+    color:lightyellow;
+    font:message-box;
+    font-weight: bolder;
+    font-size: 2.75vw;
+    text-shadow: 1px 3px 2px black;
+}
+.box{
+    display: inline-block;
+}
+dd a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 2.5vw;
+    text-shadow: none;
+    display: inline-block;
+    background-color: gold;
+    width: 165px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+a:hover{
+    text-decoration: underline;
+}
+dd a:hover{
+    text-decoration: underline;
+}
