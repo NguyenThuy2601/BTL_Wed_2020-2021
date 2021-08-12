@@ -13,9 +13,10 @@ footer{
     font-size: 1vw;
 }
 .myfooter{
+    display: block;
     width: 100%;
-    position:absolute;
-    padding-bottom: 0%;
+    position:relative;
+    bottom: 0;
     background-color: gold;
 }
 .container{
@@ -104,14 +105,11 @@ header{
 }
 .normal{
     z-index: -9999;
+    padding: auto;
+    width: 70%;
+    height: 50%;
+    margin: 0% 20% 0% 15%;
 }
-.rep{
-    padding-right: 10%;
-    padding-left: 10%;
-    width: 85%;
-    z-index: -9999;
-    display: none;
-}
-.rep img{
+.normal img{
     width: 100%;
 }
